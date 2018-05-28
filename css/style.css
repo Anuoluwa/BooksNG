@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+Primary-color 0000FF Blue
+Dark-shade
+
+
+*/
+
+.bg-blue {
+    color: #007bff;
+}
+
+#wrapper {
+    height: 100vh;
+    background-color: #e9ecef;
+}
+
+.allCaps {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.main-content{
+    margin-top: 5rem;
+}
+
+
+footer {
+    background: #007bff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
+}
