@@ -33,6 +33,9 @@ Dark-shade
     margin-top: 5rem;
 }
 
+textarea {
+  resize: none;
+}
 
 footer {
     background: #007bff;
