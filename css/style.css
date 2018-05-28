@@ -29,7 +29,17 @@ Dark-shade
     background-repeat: no-repeat ;
 }
 
+.landing {
+    text-align: center;
+    padding-top: 100px;
+}
 
+.landing h1{
+text-shadow: 2px 2px 2px #111;
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+}
 
 .allCaps {
     text-transform: uppercase;
