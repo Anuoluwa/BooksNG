@@ -1,5 +1,6 @@
 const form = document.getElementById('create-form');
 const url = 'https://fakerestapi.azurewebsites.net/api/Books';
+const successful = document.getElementById('success');
 
 const getFormData = () => {
   const formData = new FormData(form);
@@ -19,8 +20,11 @@ const create = () => {
     fetch(url, {
       method: 'POST',
       body: JSON.stringify(formData),
+      headers: {'Content-Type': 'application/json'},
     }).then((response) => {
       console.log(response);
+      successful.innerHTML = "Book created successfully";
+      form.reset();
     })
     .catch((err) => {
       console.log(err);
