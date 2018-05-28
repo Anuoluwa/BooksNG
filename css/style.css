@@ -17,8 +17,16 @@ Dark-shade
 }
 
 #wrapper {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #e9ecef;
+}
+
+.bg-picture {
+    background-image: url("/img/books-bg.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
 }
 
 .allCaps {
@@ -29,16 +37,20 @@ Dark-shade
 .navbar-brand {
     font-size: 1.5rem;
 }
-.main-content{
+
+.main-content {
     margin-top: 5rem;
+    min-height: 100vh;
 }
 
+.list-group-item {
+    border: 1px solid #bebebe;
+    margin-bottom: 1rem;
+}
 
 footer {
     background: #007bff;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 footer p {
