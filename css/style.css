@@ -45,9 +45,13 @@ Dark-shade
     min-height: 100vh;
 }
 
+
 .list-group-item {
     border: 1px solid #bebebe;
     margin-bottom: 1rem;
+
+textarea {
+  resize: none;
 }
 
 footer {
