@@ -59,7 +59,7 @@ text-shadow: 2px 2px 2px #111;
 .list-group-item {
     border: 1px solid #bebebe;
     margin-bottom: 1rem;
-
+}
 textarea {
   resize: none;
 }
