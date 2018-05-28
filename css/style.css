@@ -17,10 +17,28 @@ Dark-shade
 }
 
 #wrapper {
-  height: 100vh;
-  max-height: 100vh;
-  overflow-y: scroll;
-  background-color: #e9ecef;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}
+
+.bg-picture {
+    background-image: url("../img/books-bg.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat ;
+}
+
+.landing {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.landing h1{
+text-shadow: 2px 2px 2px #111;
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
 }
 
 .allCaps {
@@ -31,19 +49,24 @@ Dark-shade
 .navbar-brand {
   font-size: 1.5rem;
 }
-.main-content{
-  margin-top: 5rem;
+
+.main-content {
+    margin-top: 5rem;
+    min-height: 100vh;
 }
 
+
+.list-group-item {
+    border: 1px solid #bebebe;
+    margin-bottom: 1rem;
+}
 textarea {
   resize: none;
 }
 
 footer {
-  background: #007bff;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+    background: #007bff;
+    width: 100%;
 }
 
 footer p {
